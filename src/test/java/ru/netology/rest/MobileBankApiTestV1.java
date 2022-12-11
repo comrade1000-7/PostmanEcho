@@ -13,7 +13,7 @@ class MobileBankApiTestV1 {
         // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("RUR")
+                .body("RUB")
         // Выполняемые действия
                 .when()
                 .post("/post")
